@@ -15,25 +15,9 @@ const path = require('path');
 require('dotenv').config()
 const opn = require('opn');
 const player = require('play-sound')(opts = {});
-// trial code
 const { sdk } = require('@symblai/symbl-js');
 const appId = process.env.APP_ID
 const appSecret = process.env.APP_SECRET
-
-async function processMessages(messages) {
-  for (const message of messages) {
-    try {
-      const gptResponse = await generateGptResponse(message.payload.content);
-      const audioResponse = await convertTextToSpeech(gptResponse);
-      playAudioInZoom(audioResponse);
-      process.stdout.write('Message: ' + message.payload.content + '\n');
-    } catch (error) {
-      console.error('An error occurred:', error);
-    }
-  }
-}
-//trial code ends
-
 
 
 // Set up Zoom credentials
@@ -50,12 +34,8 @@ const configuration = new Configuration({
 const openai = new OpenAIApi(configuration);
 
 
-
-
-
 // Function to authorize and obtain an access token from Zoom
 async function authorizeZoom() {
-  // try {
     // Obtain the authorization code from the user
     const authorizationCode = await getUserAuthorizationCode();
 
@@ -78,11 +58,9 @@ async function authorizeZoom() {
     const accessToken = response.data.access_token;
 
     return accessToken;
-  
-  // } catch (error) {
-  //   throw new Error('Error authorizing Zoom');
-  // }
+
 }
+
 
 // Function to obtain the authorization code from the user
 async function getUserAuthorizationCode() {
@@ -152,6 +130,8 @@ async function joinMeeting(meetingNumber, accessToken, botName) {
   }
 }
 
+
+// Function to process messages i.e. pass the input audio from meeting => convert it to text => pass the text message to GPT => play audio in meeting 
 
 // Function to start PSTN Connection
 async function startPSTNConnection(ZOOM_MEETING_ID, ZOOM_PARTICIPANT_ID, ZOOM_MEETING_PASSCODE, phoneNumber, meetingName) {

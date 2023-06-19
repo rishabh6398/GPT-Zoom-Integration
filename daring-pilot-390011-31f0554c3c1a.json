@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "daring-pilot-390011",
+  "private_key_id": "31f0554c3c1aaba6e7a31349fdafabcdc7780e8d",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQDAnVitsA4oncm0\nchKKbYyrfjAnXvLwlw6bJRWiNk/9wGHcBEo8FOza3rizTqfJRxnbH8VB6iamhmjQ\nQ2h5NH2+FkF+Svntwb2hKGmkE1jvxjgRJIeJ/xJT6wEvCrOTTHZzhezYNkMKWFeX\nWKxKpKIOjupCjtqUjSXCu48DK3QYjdrLsBwkJS/+iyJh6rHnjfohrAQYZaHUprQ8\nEk0/Uj9+EDKHyKiC/3KdtRKnp5uDJyhrv4cI7cEdBiFkhb+NeBuShQDZN+m6PgZR\nhk4O9Pe2D3aUWHkUE8RoKPcKV6A30uOC55myJyS8ecoKcqkFiI0g8gs3qBRJOwtB\nIVRMz+arAgMBAAECggEAEWlONKOSh0dkJ741pz/Deu+B1aOp0E4txGznKYenvKdt\n8Sz0gCPgGUgPm13QoWUE+4YOsPVEOY9mECI+LzhFTMnHcW3AbYz/rrHv6SRtyLCH\nxvAhATw5rhsZobGU9AuLm/vCO8ID8DGpXh8zS95zK8YgrpP23EptQs7tKZTKMaHd\nrFa6EP5JLx+e/7KGDYs1ti71OLTu8Aj1ZCAIyLGre8kpYCuUya5clLWjZobkIezI\nKNivHk0sWa3hruiJXXx1kjXZWXqaQPDODm0I90g/2ev8urQPdfg+faNlv66v65rr\nhf/ON5S4SrjvwI2PppR1ngS8dfssrZSPqzL8f54t2QKBgQDrC4y+NbsQup6+Lq0j\nWR7FtsE6DNvHD8EipI9UP3oZPfa1YlZpOfwT8/nCKgFX6GfNhsBdALmjwPU+Yrwo\niJAqOaPctqb9VJVX7W91xgMA96RTHh2ddPv+7+jVIOkYMo9R+ATJOfHi6B/Jp2/7\nVppZ/lPalLYHlFZUajj9qKA0VQKBgQDRyWcmY6k2ps1ePYdFYsutYyLIrUAmNgXs\n2DVZeGNJSOVMYSaRBgBTLsPf2INPqPxDjMNtusEHWEmtqDubgyVuiiiBD/7TGCIM\nV6p+dUxDhDxEl+SZNgemhG7CaJihAIjkq3Q9w29rCzjAImlRG3Ml0FE3X2Kq746f\nvWAM5QKu/wKBgFWa3kbEkP4Vyg0gOOTf54pA9n0rA7yraz8vyhf4CoM5AyqqxygJ\n+1pVCIkD/XtD5NKBGnyE8BfJBkkTcs4cds06MwkG6Sjo7n+YtXiihqOKjinLlSOs\n4L7IJ/e/xcWPXI2RFEUpuoRW4IT0W5+huhO+wlGgye9Wwl56VYllKfwFAoGAKy9t\nl35+j+yIbDT4SrVKvlehCnR3tyX51EaxvMhGkAh8g1ugZ8w3dugylDrq1RQxUeqB\nNG50XAG1sRTnqFy38Ohp7B+R0nyuTaIiS8PzvhZTnb8y5MM1kfbDIiwL92C3zXLq\nC+jWX8/Aj/TFf1fKPWeDwIVXN173GjUOt7jQ85sCgYAFfqoGNrUNojnaGGysR5MQ\nUFixEWcf4rHAzFDqjR+PQ7caquCTDl7/JldT8AZNxY5xQhDusOaIdV4VjZayICIM\nqsFqAWlxtPGR0Mu0vouPbBHswNWd7dZAjKhsj9nGZ8drRULxtRR5LPzoS0DX0sB9\nuH5ptboi0LUy1Bb+qOki+g==\n-----END PRIVATE KEY-----\n",
+  "client_email": "speech-to-text@daring-pilot-390011.iam.gserviceaccount.com",
+  "client_id": "102120974266177648123",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/speech-to-text%40daring-pilot-390011.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

@@ -132,6 +132,19 @@ async function joinMeeting(meetingNumber, accessToken, botName) {
 
 
 // Function to process messages i.e. pass the input audio from meeting => convert it to text => pass the text message to GPT => play audio in meeting 
+async function processMessages(messages) {
+  for (const message of messages) {
+    try {
+      const gptResponse = await generateGptResponse(message.payload.content);
+      const audioResponse = await convertTextToSpeech(gptResponse);
+      playAudioInZoom(audioResponse);
+      process.stdout.write('Message: ' + message.payload.content + '\n');
+    } catch (error) {
+      console.error('An error occurred:', error);
+    }
+  }
+}
+
 
 // Function to start PSTN Connection
 async function startPSTNConnection(ZOOM_MEETING_ID, ZOOM_PARTICIPANT_ID, ZOOM_MEETING_PASSCODE, phoneNumber, meetingName) {
